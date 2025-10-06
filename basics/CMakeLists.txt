@@ -1,0 +1,11 @@
+set(SMART_POINTERS smart_pointers)
+set(SMART_POINTERS_2 smart_pointers_2)
+set(TEMPLATES template_ex_1)
+set(TEMPLATES_2 template_ex_2)
+set(TEMPLATES_3 template_ex_3)
+
+add_executable(${SMART_POINTERS} smart_pointers_ex.cpp)
+add_executable(${SMART_POINTERS_2} smart_pointers_ex_2.cpp)
+add_executable(${TEMPLATES} template_ex1.cpp)
+add_executable(${TEMPLATES_2} template_ex2.cpp)
+add_executable(${TEMPLATES_3} template_class_ex1.cpp)
