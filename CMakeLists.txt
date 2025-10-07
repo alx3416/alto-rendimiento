@@ -5,3 +5,4 @@ set(CMAKE_CXX_STANDARD 14)
 
 add_executable(hello_world main.cpp)
 add_subdirectory(basics)
+add_subdirectory(opencv)
