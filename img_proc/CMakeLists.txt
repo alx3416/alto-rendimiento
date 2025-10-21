@@ -10,7 +10,7 @@ include_directories(${Eigen3_INCLUDE_DIRS})
 
 set(TARGET_NAME img_proc)
 
-add_executable(${TARGET_NAME} img_proc.cpp)
+add_executable(${TARGET_NAME} img_proc.cpp img_proc.hpp)
 
 target_link_libraries(img_proc
         ${OpenCV_LIBS}
